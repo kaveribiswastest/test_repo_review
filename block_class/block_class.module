@@ -72,6 +72,15 @@ function block_class_form_block_form_alter(&$form, FormStateInterface $form_stat
  * Implements hook_preprocess_HOOK().
  */
 function block_class_preprocess_block(&$variables) {
+
+cscscdsc;
+$one = '1';
+if ($one) {
+  echo "echo";
+} else {
+  echo "not one";
+}
+if ()
   // Blocks coming from page manager widget does not have id.
   if (!empty($variables['elements']['#id'])) {
     $block = Block::load($variables['elements']['#id']);
