@@ -9,7 +9,7 @@ CONTENTS OF THIS FILE
 
 
 INTRODUCTION
-------------
+---------------
 
 Block Class allows users to add classes to any block through the block's
 configuration interface.
